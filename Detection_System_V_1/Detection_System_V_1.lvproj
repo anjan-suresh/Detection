@@ -27,7 +27,16 @@
 			</Item>
 			<Item Name="myRIO Custom FPGA Project Documentation.html" Type="Document" URL="../documentation/myRIO Custom FPGA Project Documentation.html"/>
 		</Item>
-		<Item Name="Dependencies" Type="Dependencies"/>
+		<Item Name="GUI_V_1.vi" Type="VI" URL="../GUI_V_1.vi"/>
+		<Item Name="Dependencies" Type="Dependencies">
+			<Item Name="vi.lib" Type="Folder">
+				<Item Name="ex_CorrectErrorChain.vi" Type="VI" URL="/&lt;vilib&gt;/express/express shared/ex_CorrectErrorChain.vi"/>
+				<Item Name="subDisplayMessage.vi" Type="VI" URL="/&lt;vilib&gt;/express/express output/DisplayMessageBlock.llb/subDisplayMessage.vi"/>
+			</Item>
+			<Item Name="Control 1.ctl" Type="VI" URL="../../../../Users/anjan/Documents/LabVIEW Data/GUI_NEW/Control 1.ctl"/>
+			<Item Name="Global 1.vi" Type="VI" URL="../../../../Users/anjan/Documents/LabVIEW Data/GUI_NEW/Global 1.vi"/>
+			<Item Name="Global 2.vi" Type="VI" URL="../../../../Users/anjan/Documents/LabVIEW Data/GUI_NEW/Global 2.vi"/>
+		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
 	<Item Name="myRIO-1900" Type="RT myRIO">
